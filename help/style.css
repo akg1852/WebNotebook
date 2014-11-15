@@ -1,0 +1,26 @@
+body {
+    text-align: left;
+    background-color: #CCCCCC;
+}
+
+h1 {
+    text-align: center;
+}
+
+a { text-decoration: none; }
+
+.link {
+    background-color: #FF0033;
+    cursor: pointer;
+}
+
+.caret {
+    background-color: #6699FF;
+    font-size: 15px;
+    font-family: courier new, monospace;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}

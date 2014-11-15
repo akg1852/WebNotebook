@@ -1,0 +1,4 @@
+#Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([a-z0-9_-]+)$ document.php?id=$1 [NC,L]

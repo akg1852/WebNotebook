@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color: #CCCCCC;
+    cursor: auto;
+}
+body.offline {
+    background-color: #CC6666;
+    background-image:url('offline.png');
+}
+
+a { text-decoration: none; }
+
+#page {
+    display: inline-block;
+    visibility: hidden;
+    background-color: #FFFFEE;
+    border: 1px solid #000000;
+    margin: 0; padding: 0;
+}
+
+
+#content {
+    border: 1px solid #CCCCFF;
+    margin: 15px 30px 30px 30px; padding: 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: courier new, monospace;
+    cursor: text;
+}
+
+#documentID {
+    margin: 15px 0 0 0; padding: 0;
+}
+
+.line {
+    border-bottom: 1px solid #CCCCFF;
+    margin: 0; padding: 0;
+}
+
+.context {
+    background-color: #FFFFAB;
+}
+
+.link {
+    background-color: #FF0033;
+    cursor: pointer;
+}
+
+.caret {
+    background-color: #6699FF;
+}
+
+
+#createLink, #followLink {
+    position: fixed;
+    left: 35%;
+    top: 35%;
+    width: 30%; 
+    
+    border: 1px solid #000000;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 20px;
+    display: none;
+}
+
+#createLink-url {
+    width: 90%;
+}
